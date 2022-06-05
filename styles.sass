@@ -1,0 +1,212 @@
+*
+  margin: 00px
+  padding: 0
+  box-sizing: border-box
+html,body
+img
+  max-width: 100%
+ul
+  list-style: none
+a
+  :visited
+    color: red
+select
+  width: 200px
+  margin-bottom: 10px
+.content
+  color: black
+  max-width: 1200px
+  border: 1px black
+  margin-left: auto
+  margin-right: auto
+  background: #DCDCDC
+.header
+  background: #808080
+  padding: 15px 8px
+  display: flex
+  justify-content: space-between
+  align-items: center
+.title
+  font-size: 36px
+  color: #fff
+  &--content
+    color: black
+    font-size: 24px
+    line-height: 26px
+    text-align: center
+    margin-bottom: 10px
+  &--goods
+    color: black
+    font-size: 18px
+    line-height: 19px
+    text-align: center
+    margin-bottom: 5px
+  &--goods-auto
+    color: black
+    font-size: 14px
+    line-height: 15px
+    text-align: center
+.menu
+  &__lists
+    list-style: none
+    display: flex
+  &__lists-item
+    margin-left: 10px
+    border-left: 1px solid #c4c4c4
+  &__link
+    text-decoration: none
+    color: #fff
+    font-size: 18px
+    line-height: 19px
+    padding: 10px 5px
+    transition: background-color .3s
+    &:hover
+      background-color: rgba(0,0,0,0.1)
+      font-size: 21px
+.description
+  padding: 15px
+  &__text
+    color: black
+    font-size: 16px
+    line-height: 18px
+    margin-bottom: 10px
+.goods
+  padding: 15px
+  &__lists
+    color: black
+  &__row
+    display: flex
+    justify-content: space-around
+  &__row-item
+    color: #A9A9A9
+    width: 300px
+    border: 2px solid #A9A9A9
+    box-shadow: 5px 10px 20px
+  &__auto
+    margin-right: auto
+    margin-left: auto
+    border: 1px solid yellow
+    border-radius: 50%
+    width: 150px
+    height: 150px
+  &__auto-img
+    width: 100%
+    height: 100%
+    border-radius: 50%
+  &__lists-characteristic
+    margin-left: 35px
+  &__item-characteristic
+    margin-bottom: 5px
+    position: relative
+    &::before
+      content: ''
+      position: absolute
+      border: 2px solid #4682B4
+      width: 2px
+      height: 8px
+      top: 45%
+      transform: translateY(-50%) rotate(-135deg)
+      left: -5.7%
+      border-right: 0
+      border-bottom: 0
+    &::after
+      content: ''
+      position: absolute
+      border: 3px solid #4682B4
+      width: 10px
+      height: 10px
+      border-radius: 50%
+      top: 50%
+      transform: translateY(-50%)
+      left: -22px
+  &__item-dinamic
+    margin-bottom: 5px
+    position: relative
+  &__link
+    text-decoration: none
+    &:visited
+      color: red
+.form
+  margin-bottom: 10px
+  &__inner
+    max-width: 700px
+    margin-left: auto
+    margin-right: auto
+    text-align: center
+    padding: 10px
+    border: 2px solid #A9A9A9
+  &__application
+    display: flex
+    flex-direction: column
+    align-items: center
+  &__input
+    padding: 5px
+    width: 60%
+    margin-bottom: 10px
+    border-radius: 8px
+  &__button
+    display: flex
+    justify-content: space-between
+    width: 50%
+.button
+  font-size: 12px
+  width: 30%
+  padding: 5px
+  background: #0076C0
+  color: #FFFFFF
+  border: 1px solid teal
+  &--create
+    &:hover
+      cursor: pointer
+  &--cancel
+    &:hover
+      cursor: no-drop
+table, th, td
+  border: 1px solid white
+  border-collapse: collapse
+th
+  background-color: #96D4D4
+.table
+  &__inner
+    max-width: 700px
+    margin-left: auto
+    margin-right: auto
+    text-align: center
+    padding: 10px
+    border: 2px solid #A9A9A9
+  &__info
+    width: 100%
+    &-trth
+      font-size: 22px
+      line-height: 23px
+    &-th
+      padding: 5px 3px
+    &-trtd
+      font-size: 18px
+      line-height: 19px
+    &-td
+      padding: 5px 3px 5px 3px
+.footer
+  background: linear-gradient(247.8deg, #126FB8 0%, #252851 100%)
+  color: #FFFFFF
+  min-height: 150px
+  margin-top: 15px
+  padding: 10px
+  &__navigation
+    display: flex
+    justify-content: space-around
+    align-items: center
+    margin-bottom: 20px
+  &__menu-link
+    text-decoration: none
+    color: #fff
+    font-size: 12px
+    line-height: 13px
+    padding: 10px 5px
+  &__contacts
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+  &__copyrait
+    text-align: center
+    font-size: 12px
